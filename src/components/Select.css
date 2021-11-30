@@ -1,0 +1,17 @@
+.selectbox {
+  padding: 30px;
+  text-align: center;
+  margin: 80px auto;
+  border-radius: 30px;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.301);
+  backdrop-filter: blur(30px);
+  -webkit-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -1px rgba(0, 0, 0, 0.75);
+}
+.image {
+  width: 38%;
+  border-radius: 30px;
+  margin: auto;
+}

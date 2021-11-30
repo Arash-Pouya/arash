@@ -1,0 +1,30 @@
+button {
+  margin: 0.5rem;
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  color: white;
+  font-weight: 900;
+  border: none;
+  transition: 0.5s;
+  background: none;
+  direction: rtl;
+}
+.bg-primary {
+  background: #7659ff;
+  background-image: linear-gradient(to right, #ad59ff, #7659ff);
+  border-bottom: 3px solid #654ddb;
+  box-shadow: 0 4px 10px rgba(6, 7, 64, 0.5);
+  /* text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); */
+}
+.bg-primary:hover {
+  background-image: linear-gradient(to right, #ad59ff, #9f8bff);
+}
+.bg-primary span {
+  color: white;
+  text-decoration: none;
+}
+@media only screen and (max-width: 700px) {
+  button {
+    padding: 0.625rem;
+  }
+}
