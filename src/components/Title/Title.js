@@ -1,15 +1,12 @@
 import React from "react";
+import Arash from "../../assets/images/arash.png";
 import "./Title.css";
 const Title = (props) => {
   return (
-    <div className="title">
-      <label>نام : {props.firstname}</label>
-      <label>نام خانوادگی : {props.lastname}</label>
-      <label>تاریخ تولد : {props.age} </label>
-      <label>شماره تماس : {props.phonenumber}</label>
-      <label> آدرس ایمیل : {props.email}</label>
-      <label> آدرس گیت هاب : {props.github}</label>
-      <label> آدرس لینکدین : {props.linkedin}</label>
+    <div className="Title">
+      <img src={Arash} />
+      <h1>{props.name}</h1>
+      <p>{props.title}</p>
     </div>
   );
 };
