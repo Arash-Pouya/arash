@@ -1,0 +1,19 @@
+.text h2 {
+  border-bottom: 1px solid red;
+  align-items: center;
+  text-align: center;
+  margin: 30px auto;
+  width: 50%;
+}
+.text p {
+  margin-right: 5px;
+  text-align: justify;
+}
+.text img {
+  width: 10%;
+  margin-left: 10px;
+}
+.text div {
+  display: flex;
+  justify-content: space-around;
+}

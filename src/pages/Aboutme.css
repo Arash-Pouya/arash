@@ -1,0 +1,13 @@
+.aboutme {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.301);
+  backdrop-filter: blur(30px);
+  color: white;
+  width: 80%;
+  margin: 10px auto;
+  direction: rtl;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  /* justify-content: space-between; */
+}

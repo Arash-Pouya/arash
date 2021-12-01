@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Tollbar = () => {
   return (
     <div className="tollbar">
-      <NavLink end style={{ textDecoration: "none" }} to="/Persian">
+      <NavLink end style={{ textDecoration: "none" }} to="/Aboutme">
         <p>درباره من</p>
       </NavLink>
       <NavLink style={{ textDecoration: "none" }} end to="/homepage">
