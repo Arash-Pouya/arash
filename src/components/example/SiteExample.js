@@ -1,19 +1,23 @@
 import React from "react";
 import "./SiteExample.css";
+import amlak from "../../assets/images/amlak.JPG";
+import Rp from "../../assets/images/r.pa.JPG";
+import Shop from "../../assets/images/store1.JPG";
+import Kitchen from "../../assets/images/store2.JPG";
 const SiteExample = (props) => {
   return (
     <div className="SiteExample">
       <h2>{props.titleexample}</h2>
       <p>{props.main}</p>
       <div>
-        <h2>{props.titleexample2}</h2>
         <a href=" https://arash-pouya.github.io/amlak/">سایت مشاوره املاک </a>
-        <div className="one"></div>
+        <img src={amlak} />
         <a href="https://arash-pouya.github.io/BigTech/"> سایت شرکتی </a>
-        <div className="two"></div>
+        <img src={Rp} />
         <a href="https://arash-pouya.github.io/ShopEditOne/">فروشگاه شماره یک </a>
-        <div className="three"></div>
-        <a href="https://arash-pouya.github.io/KitchenShop/">فروشگاه شماره دو </a> <div className="four"></div>
+        <img src={Shop} />
+        <a href="https://arash-pouya.github.io/KitchenShop/">فروشگاه شماره دو </a>
+        <img src={Kitchen} />
       </div>
     </div>
   );

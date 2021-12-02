@@ -10,7 +10,7 @@ const Tollbar = () => {
       <NavLink style={{ textDecoration: "none" }} end to="/Example">
         <p>نمونه کار</p>
       </NavLink>
-      <NavLink style={{ textDecoration: "none" }} end to="/homepage">
+      <NavLink style={{ textDecoration: "none" }} end to="/ContanctMe">
         <p>تماس با من</p>
       </NavLink>
     </div>
