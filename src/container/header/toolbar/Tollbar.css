@@ -15,9 +15,7 @@
   padding: 5px;
 }
 
-.active {
+.active p {
   border-radius: 15px;
-  -webkit-box-shadow: inset 0px 23px 78px -64px rgba(255, 0, 0, 1);
-  -moz-box-shadow: inset 0px 23px 78px -64px rgba(255, 0, 0, 1);
-  box-shadow: inset 0px 23px 78px -64px rgba(255, 0, 0, 1);
+  color: red;
 }

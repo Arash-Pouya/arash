@@ -7,7 +7,7 @@ const Tollbar = () => {
       <NavLink end style={{ textDecoration: "none" }} to="/Aboutme">
         <p>درباره من</p>
       </NavLink>
-      <NavLink style={{ textDecoration: "none" }} end to="/homepage">
+      <NavLink style={{ textDecoration: "none" }} end to="/Example">
         <p>نمونه کار</p>
       </NavLink>
       <NavLink style={{ textDecoration: "none" }} end to="/homepage">

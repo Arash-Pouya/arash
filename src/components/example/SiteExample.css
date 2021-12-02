@@ -1,0 +1,23 @@
+.SiteExample h2 {
+  border-bottom: 1px solid red;
+  align-items: center;
+  text-align: center;
+  margin: 30px auto;
+  width: 40%;
+}
+.SiteExample p {
+  margin: auto;
+  text-align: justify;
+  width: 80%;
+  font-size: 17px;
+}
+.SiteExample a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+.SiteExample div {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+}

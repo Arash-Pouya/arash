@@ -6,8 +6,10 @@
   width: 50%;
 }
 .text p {
-  margin-right: 5px;
+  margin: auto;
   text-align: justify;
+  width: 50%;
+  font-size: 17px;
 }
 .text img {
   width: 10%;
