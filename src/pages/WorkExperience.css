@@ -1,10 +1,11 @@
-.aboutme {
+.Work {
   color: white;
   width: 80%;
   margin: 10px auto;
   direction: rtl;
   padding: 10px;
-  display: flex;
+  /* display: flex; */
   background-color: darkturquoise;
+
   /* justify-content: space-between; */
 }

@@ -1,10 +1,11 @@
 .homepage {
-  margin: 10px auto;
-  width: 50%;
-  background-color: rgba(255, 255, 255, 0.192);
+  margin: 120px auto;
+  width: 90%;
+  /* background-color: rgba(255, 255, 255, 0.192); */
   backdrop-filter: blur(8px);
-  border-radius: 35px;
-  display: flex;
+  color: white;
+  border-radius: 50px;
+  /* display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center; */
 }

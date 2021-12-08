@@ -10,3 +10,13 @@
   width: 15%;
   border-radius: 50px;
 }
+.Title div {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  padding: 1px;
+}
+.Title a {
+  text-decoration: none;
+  color: white;
+}

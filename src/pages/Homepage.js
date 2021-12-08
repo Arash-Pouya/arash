@@ -1,12 +1,14 @@
 import React from "react";
 import "./Homepage.css";
-import Title from "../components/Title/Title";
+import Aboutme from "./Aboutme";
+import Workexperience from "./WorkExperience";
+// import Example from "../pages/Example";
+// import Title from "../components/Title/Title";
 const Homepage = () => {
   return (
     <div className="homepage">
-      <div>
-        <Title name="آرش پویا" title="توسعه دهنده ی فرانت اند" />
-      </div>
+      <Aboutme />
+      <Workexperience />
     </div>
   );
 };

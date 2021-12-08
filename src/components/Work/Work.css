@@ -1,37 +1,32 @@
-.text h2 {
+.work h2 {
   border-bottom: 1px solid red;
   align-items: center;
   text-align: center;
   margin: 30px auto;
   width: 80%;
 }
-.text {
+.work {
   background-color: darkslateblue;
 }
-.text p {
+.work div {
   margin: auto;
   text-align: justify;
   width: 80%;
   font-size: 17px;
 }
-.text img {
-  width: 8%;
-  margin-left: 10px;
-}
-.text div {
-  display: flex;
-  justify-content: space-around;
+.work label {
+  margin-left: 70px;
 }
 @media only screen and (max-width: 600px) {
-  .text p {
+  /* .work p {
     width: 90%;
     font-size: 16px;
   }
-  .text h2 {
+  .work h2 {
     border-bottom: 1px solid red;
     align-items: center;
     text-align: center;
     margin: 30px auto;
     width: 90%;
-  }
+  } */
 }
