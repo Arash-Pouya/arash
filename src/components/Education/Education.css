@@ -1,0 +1,33 @@
+.Education h2 {
+    border-bottom: 1px solid red;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
+  }
+  .Education {
+    /* background-color: darkslateblue; */
+  }
+  .Education div {
+    margin: auto;
+    text-align: justify;
+    width: 80%;
+    font-size: 17px;
+  }
+  .Education label {
+    margin-left: 70px;
+  }
+  @media only screen and (max-width: 600px) {
+    /* .work p {
+      width: 90%;
+      font-size: 16px;
+    }
+    .work h2 {
+      border-bottom: 1px solid red;
+      align-items: center;
+      text-align: center;
+      margin: 30px auto;
+      width: 90%;
+    } */
+  }
+  
