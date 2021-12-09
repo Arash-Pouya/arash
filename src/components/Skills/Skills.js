@@ -1,5 +1,7 @@
 import React from "react";
 import "./Skills.css";
+import Button from "../UI/button/Button";
+import { Link } from "react-router-dom";
 const Skills = (props) => {
   return (
     <div className="skills">
@@ -26,6 +28,9 @@ const Skills = (props) => {
           <li>تعمیرات نرم افزاری</li>
         </ul>
       </div>
+      <Link to="/Example">
+        <Button />
+      </Link>
     </div>
   );
 };

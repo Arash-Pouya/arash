@@ -4,7 +4,8 @@
   direction: rtl;
   padding: 10px;
 }
-
+.btn {
+}
 .skills h2 {
   border-bottom: 1px solid red;
   align-items: center;
