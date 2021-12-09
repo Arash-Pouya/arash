@@ -3,19 +3,29 @@ import "./Skills.css";
 const Skills = (props) => {
   return (
     <div className="skills">
-      <p>مهارت ها</p>
-      <ul>
-        <li>{props.one}</li>
-        <li>{props.two}</li>
-        <li>{props.three}</li>
-        <li>{props.four}</li>
-        <li>{props.five}</li>
-        <li>{props.six}</li>
-        <li>{props.seven}</li>
-        <li>{props.eight}</li>
-        <li>{props.nine}</li>
-        <li>{props.ten}</li>
-      </ul>
+      <h2>مهارت ها</h2>
+      <div>
+        <p>مهارت های اصلی</p>
+        <ul>
+          <li>جاوااسکریپت</li>
+          <li>ری اکت</li>
+          <li>اچ تی ام ال</li>
+          <li> سی اس اس</li>
+          <li>جی کوئری</li>
+          <li> ایجکس</li>
+          <li> فریمورک بوت استرپ</li>
+          <li> فریمورک یو آی کیت</li>
+          <li>فریمورک متریال یو آی</li>
+        </ul>
+        <p>مهارت های فرعی</p>
+        <ul>
+          <li>ورد</li>
+          <li>پاورپوینت</li>
+          <li>اکسل</li>
+          <li>فتوشاپ</li>
+          <li>تعمیرات نرم افزاری</li>
+        </ul>
+      </div>
     </div>
   );
 };
